@@ -27,7 +27,7 @@ information. See more details [here](https://docs.echoar.xyz/swift/adding-ar-cap
 4. Objects can be scaled at any time by doing the two finger pinch gesture on them.
 
 ## Learn More
-Refer to our [documentation](https://docs.echoar.xyz/swift/installation) to learn more about echoAR and the swift SDK. 
+Refer to our [documentation](https://docs.echoar.xyz/swift/installation) to learn more about echoAR and the Swift SDK. 
 
 ## Support 
 Feel free to reach out at <support@echoAR.xyz> or join our [support channel on Slack](https://join.slack.com/t/echoar/shared_invite/enQtNTg4NjI5NjM3OTc1LWU1M2M2MTNlNTM3NGY1YTUxYmY3ZDNjNTc3YjA5M2QyNGZiOTgzMjVmZWZmZmFjNGJjYTcxZjhhNzk3YjNhNjE).
