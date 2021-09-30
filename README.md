@@ -1,9 +1,9 @@
-# iOS-ARKit-demo-Town-Builder
-ARTownBuilderDemo is a tabletop augmented reality iOS demo app, built with the echoAR Swift SDK, that allows users
+# iOS-ARKit-echo3D-demo-Town-Builder
+This is a tabletop augmented reality iOS demo app, built with the echo3D Swift SDK, that allows users
 to build virtual neighborhoods on horizontal surfaces. 
 
 ## Register
-Don't have an API key? Make sure to register for FREE at [echoAR](https://console.echoar.xyz/#/auth/register)
+Don't have an API key? Make sure to register for FREE at [echo3D](https://console.echo3D.co/#/auth/register)
 
 ## Build and Run
 1. Make sure you have Xcode downloaded
@@ -11,10 +11,10 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://consol
 3. open ARTownBuilderDemo.xcodeproj using Xcode 
 (if you have Xcode downloaded you simply double click the file to open)
 4. Go to the "Signing&Capabilities" tab on Xcode and fill out your signing
-information. See more details [here](https://docs.echoar.xyz/swift/adding-ar-capabilities) 
-6. Go to the EchoAR.swift file, insert your api key as a String where it says "insert api key here"
-7. Go to the echoAR console and add the 3d content you would like to use in the scene (see below for the optimal choices for the demo). 
-7. Go to the ViewController.swift file, add the entry id's for 3d content you have added to your echoAR console. Where it says
+information. See more details [here](https://docs.echo3D.co/swift/adding-ar-capabilities) 
+6. Go to the Echo3D.swift file, insert your api key as a String where it says "insert api key here"
+7. Go to the echo3D console and add the 3d content you would like to use in the scene (see below for the optimal choices for the demo). 
+7. Go to the ViewController.swift file, add the entry id's for 3d content you have added to your echo3D console. Where it says
 "insert entry id here"
 5. Connect your iPhone to your computer.
 6. Select your iPhone on the dropdown list of devices to run the demo app on. 
@@ -27,10 +27,10 @@ information. See more details [here](https://docs.echoar.xyz/swift/adding-ar-cap
 4. Objects can be scaled at any time by doing the two finger pinch gesture on them.
 
 ## Learn More
-Refer to our [documentation](https://docs.echoar.xyz/swift/installation) to learn more about echoAR and the Swift SDK. 
+Refer to our [documentation](https://docs.echo3D.co/swift/installation) to learn more about echo3D and the Swift SDK. 
 
 ## Support 
-Feel free to reach out at <support@echoAR.xyz> or join our [support channel on Slack](https://join.slack.com/t/echoar/shared_invite/enQtNTg4NjI5NjM3OTc1LWU1M2M2MTNlNTM3NGY1YTUxYmY3ZDNjNTc3YjA5M2QyNGZiOTgzMjVmZWZmZmFjNGJjYTcxZjhhNzk3YjNhNjE).
+Feel free to reach out at <support@echo3D.co> or join our [support channel on Slack](https://go.echo3D.co/join).
 
 ## Screenshots
 ![screenshot](./screenshots/1.PNG)
