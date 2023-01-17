@@ -6,7 +6,7 @@ This is a tabletop augmented reality iOS demo app, built with the echo3D Swift S
 * Clone this repository and open in XCode.
 
 ## Video
-* See on Youtube [here](https://youtu.be/zSa2_1UCCMI).
+* See on Youtube [here](https://youtu.be/RRKaFj1In3I).
 
 ## Steps
 * Open ARTownBuilderDemo.xcodeproj using Xcode (Note: If you have Xcode downloaded you simply double click the file to open).
