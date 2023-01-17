@@ -1,8 +1,8 @@
 /**************************************************************************
-* Copyright (C) echoAR, Inc. 2018-2020.
+* Copyright (C) echoAR, Inc. 2018-2023.
 * echoAR, Inc. proprietary and confidential.
 * Use subject to the terms of the Terms of Service available at
-* https://www.echoar.xyz/terms, or another agreement
+* https://www.echo3d.com/terms, or another agreement
 * between echoAR, Inc. and you, your company or other organization.
 **************************************************************************/
 
@@ -24,7 +24,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     var myPlanes: [SCNNode] = []
     
     //echoAR entry id's for 3D models for app
-    let treeId = "a3afa700-c20a-4366-9441-64ea0a14f750" // insert your entry id here
+    let treeId = "a3afa700-c20a-4366-9441-64ea0a14f750"// insert your entry id here
     let picnicTableId = "ddb22b24-1acc-41a6-825d-fb2d78040f9c" // insert your entry id here
     let roadId = "32b22856-24af-43c4-bbbe-88ad98998a46" // insert your entry id here
     let poolId = "0916c8f6-5d31-4b66-9bf4-a5b1f4e6509f" // insert your entry id here

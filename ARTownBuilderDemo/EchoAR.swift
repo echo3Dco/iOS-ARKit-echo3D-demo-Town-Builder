@@ -2,9 +2,9 @@
 //  echoAR.swift
 //  iOS-echoAR-example
 //
-//  Copyright © echoAR, Inc. 2018-2020.
+//  Copyright © echoAR, Inc. 2018-2023.
 //
-//  Use subject to the Terms of Service available at https://www.echoar.xyz/terms,
+//  Use subject to the Terms of Service available at https://www.echo3d.com/terms,
 //  or another agreement between echoAR, Inc. and you, your company or other organization.
 //
 //  Unless expressly provided otherwise, the software provided under these Terms of Service
@@ -21,9 +21,9 @@ import Foundation
 class EchoAR{
     let api_key="shrill-bird-7026" //insert your echoAR API key here
     //echoar endpoint
-    var serverURL="https://console.echoar.xyz/query?key="
+    var serverURL="https://api.echo3d.com/query?key="
     //websocket endpoint
-    var websockURL="ws://console.echoar.xyz/message-endpoint"
+    var websockURL="wss://api.echo3d.com/message-endpoint"
     //secure websocket endpoint
     //var websockURL="wss://console.echoar.xyz/message-endpoint"
     //url web sessions
@@ -86,7 +86,7 @@ class EchoAR{
     
     //queries the url and returns the response
     func queryDatabase(api_key:String, completion: ([Entry]) -> ()){
-        self.serverURL="https://console.echoar.xyz/query?key="+api_key;
+        self.serverURL="https://api.echo3d.com/query?key="+api_key;
         //check if cached database query
         if(self.entries.count>0){
             //return entries if we've already queried the backend

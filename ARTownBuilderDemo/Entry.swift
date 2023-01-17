@@ -2,9 +2,9 @@
 //  Entry.swift
 //  iOS-echoAR-example
 //
-//  Copyright © echoAR, Inc. 2018-2020.
+//  Copyright © echoAR, Inc. 2018-2023.
 //
-//  Use subject to the Terms of Service available at https://www.echoar.xyz/terms,
+//  Use subject to the Terms of Service available at https://www.echo3d.com/terms,
 //  or another agreement between echoAR, Inc. and you, your company or other organization.
 //
 //  Unless expressly provided otherwise, the software provided under these Terms of Service
@@ -24,7 +24,7 @@ class Entry{
     //entry ID of the model
     var entryID:String="";
     //server_url passed from EchoAR
-    //typical value is: "https://console.echoar.xyz/query?key=<API_Key>"
+    //typical value is: "https:/api.echo3d.com/query?key=<API_Key>"
     var server_url:String="";
     //name of the uploaded file to echoAR
     var filename:String="";
