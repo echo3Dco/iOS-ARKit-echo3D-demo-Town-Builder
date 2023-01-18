@@ -1,11 +1,11 @@
 //
 //  Entry.swift
-//  iOS-echoAR-example
+//  iOS-echo3D-example
 //
-//  Copyright © echoAR, Inc. 2018-2023.
+//  Copyright © echo3D, Inc. 2018-2023.
 //
 //  Use subject to the Terms of Service available at https://www.echo3d.com/terms,
-//  or another agreement between echoAR, Inc. and you, your company or other organization.
+//  or another agreement between echo3D, Inc. and you, your company or other organization.
 //
 //  Unless expressly provided otherwise, the software provided under these Terms of Service
 //  is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
@@ -19,14 +19,14 @@ import SceneKit
 import SceneKit.ModelIO
 
 class Entry{
-    //saving the URL as where to get the usdz model from EchoAR backend
+    //saving the URL as where to get the usdz model from echo3D backend
     var downloadURL:String="";
     //entry ID of the model
     var entryID:String="";
-    //server_url passed from EchoAR
+    //server_url passed from echo3D
     //typical value is: "https:/api.echo3d.com/query?key=<API_Key>"
     var server_url:String="";
-    //name of the uploaded file to echoAR
+    //name of the uploaded file to echo3D
     var filename:String="";
     //name of the usdz file
     var usdz_id:String="";

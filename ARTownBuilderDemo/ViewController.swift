@@ -1,9 +1,9 @@
 /**************************************************************************
-* Copyright (C) echoAR, Inc. 2018-2023.
-* echoAR, Inc. proprietary and confidential.
+* Copyright (C) echo3D, Inc. 2018-2023.
+* echo3D, Inc. proprietary and confidential.
 * Use subject to the terms of the Terms of Service available at
 * https://www.echo3d.com/terms, or another agreement
-* between echoAR, Inc. and you, your company or other organization.
+* between echo3D, Inc. and you, your company or other organization.
 **************************************************************************/
 
 import UIKit
@@ -15,7 +15,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
 
-    var e:EchoAR!;
+    var e:echo3D!;
     
     //variables to store data for horizontal planes
     var planeColor: UIColor?
@@ -23,7 +23,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     var myPlaneNode: SCNNode?
     var myPlanes: [SCNNode] = []
     
-    //echoAR entry id's for 3D models for app
+    //echo3D entry id's for 3D models for app
     let treeId = "a3afa700-c20a-4366-9441-64ea0a14f750"// insert your entry id here
     let picnicTableId = "ddb22b24-1acc-41a6-825d-fb2d78040f9c" // insert your entry id here
     let roadId = "32b22856-24af-43c4-bbbe-88ad98998a46" // insert your entry id here
@@ -71,7 +71,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     var selectedId: String?
     var selectedInd = 0
     
-    //array of the echoAR entry id's of 3D models
+    //array of the echo3D entry id's of 3D models
     var idArr: [String]?
     
     //constants to scale down the nodes, when first added to sceneView
@@ -105,7 +105,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Show statistics such as fps and timing information
         //sceneView.showsStatistics = true
 
-        e = EchoAR();
+        e = echo3D();
         
         //choose a color to use for the plane
         planeColor = UIColor(red: CGFloat(102.0/255) , green: CGFloat(189.0/255), blue: CGFloat(60.0/255), alpha: CGFloat(0.6))
@@ -242,7 +242,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let y = translation.y
         let z = translation.z
         
-       //load scene (3d model) from echoAR using the entry id of the users selected button
+       //load scene (3d model) from echo3D using the entry id of the users selected button
         e.loadSceneFromEntryID(entryID: idArr![selectedInd]) { (selectedScene) in
             //make sure the scene has a scene node
             guard let selectedNode = selectedScene.rootNode.childNodes.first else {return}

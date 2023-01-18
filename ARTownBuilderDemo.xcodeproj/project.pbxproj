@@ -12,9 +12,9 @@
 		216E98B22515B3F000E9FC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216E98B02515B3F000E9FC9B /* Main.storyboard */; };
 		216E98B42515B3F400E9FC9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216E98B32515B3F400E9FC9B /* Assets.xcassets */; };
 		216E98B72515B3F400E9FC9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216E98B52515B3F400E9FC9B /* LaunchScreen.storyboard */; };
-		216E98BF2515B41B00E9FC9B /* echoARSwiftSDK in Resources */ = {isa = PBXBuildFile; fileRef = 216E98BE2515B41B00E9FC9B /* echoARSwiftSDK */; };
+		216E98BF2515B41B00E9FC9B /* echo3DSwiftSDK in Resources */ = {isa = PBXBuildFile; fileRef = 216E98BE2515B41B00E9FC9B /* echo3DSwiftSDK */; };
 		216E98C12515B5B400E9FC9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E98C02515B5B400E9FC9B /* ViewController.swift */; };
-		216E98C32515B5C600E9FC9B /* EchoAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E98C22515B5C600E9FC9B /* EchoAR.swift */; };
+		216E98C32515B5C600E9FC9B /* Echo3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E98C22515B5C600E9FC9B /* Echo3D.swift */; };
 		216E98C52515B5C800E9FC9B /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E98C42515B5C800E9FC9B /* Entry.swift */; };
 		216E98C72515B5CC00E9FC9B /* RemoteTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E98C62515B5CC00E9FC9B /* RemoteTransformation.swift */; };
 /* End PBXBuildFile section */
@@ -27,9 +27,9 @@
 		216E98B32515B3F400E9FC9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		216E98B62515B3F400E9FC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		216E98B82515B3F400E9FC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		216E98BE2515B41B00E9FC9B /* echoARSwiftSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = echoARSwiftSDK; sourceTree = "<group>"; };
+		216E98BE2515B41B00E9FC9B /* echo3DSwiftSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = echo3DSwiftSDK; sourceTree = "<group>"; };
 		216E98C02515B5B400E9FC9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		216E98C22515B5C600E9FC9B /* EchoAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoAR.swift; sourceTree = "<group>"; };
+		216E98C22515B5C600E9FC9B /* Echo3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Echo3D.swift; sourceTree = "<group>"; };
 		216E98C42515B5C800E9FC9B /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		216E98C62515B5CC00E9FC9B /* RemoteTransformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteTransformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,10 +64,10 @@
 		216E98A92515B3F000E9FC9B /* ARTownBuilderDemo */ = {
 			isa = PBXGroup;
 			children = (
-				216E98C22515B5C600E9FC9B /* EchoAR.swift */,
+				216E98C22515B5C600E9FC9B /* Echo3D.swift */,
 				216E98C42515B5C800E9FC9B /* Entry.swift */,
 				216E98C62515B5CC00E9FC9B /* RemoteTransformation.swift */,
-				216E98BE2515B41B00E9FC9B /* echoARSwiftSDK */,
+				216E98BE2515B41B00E9FC9B /* echo3DSwiftSDK */,
 				216E98AA2515B3F000E9FC9B /* AppDelegate.swift */,
 				216E98C02515B5B400E9FC9B /* ViewController.swift */,
 				216E98AE2515B3F000E9FC9B /* Experience.rcproject */,
@@ -140,7 +140,7 @@
 				216E98B72515B3F400E9FC9B /* LaunchScreen.storyboard in Resources */,
 				216E98B42515B3F400E9FC9B /* Assets.xcassets in Resources */,
 				216E98B22515B3F000E9FC9B /* Main.storyboard in Resources */,
-				216E98BF2515B41B00E9FC9B /* echoARSwiftSDK in Resources */,
+				216E98BF2515B41B00E9FC9B /* echo3DSwiftSDK in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +154,7 @@
 				216E98C72515B5CC00E9FC9B /* RemoteTransformation.swift in Sources */,
 				216E98C52515B5C800E9FC9B /* Entry.swift in Sources */,
 				216E98C12515B5B400E9FC9B /* ViewController.swift in Sources */,
-				216E98C32515B5C600E9FC9B /* EchoAR.swift in Sources */,
+				216E98C32515B5C600E9FC9B /* Echo3D.swift in Sources */,
 				216E98AB2515B3F000E9FC9B /* AppDelegate.swift in Sources */,
 				216E98AF2515B3F000E9FC9B /* Experience.rcproject in Sources */,
 			);
