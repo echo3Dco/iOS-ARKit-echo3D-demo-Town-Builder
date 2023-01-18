@@ -1,5 +1,5 @@
 # iOS-ARKit-echo3D-Demo-TownBuilder
-This is a tabletop augmented reality iOS demo app, built with the echo3D Swift SDK, that allows users to build virtual neighborhoods on horizontal surfaces. This project does not require you to enter your echo3D API key or entry IDs as they are already embedded in the project. To swap these out for your own assets, follow the steps below. 
+This is a tabletop augmented reality iOS demo app, built with the echo3D Swift SDK, that allows users to build virtual neighborhoods on horizontal surfaces. This project requires you to enter your echo3D API key or entry IDs.
 
 ## Setup
 * Register for FREE at [echo3D](https://console.echo3D.co/#/auth/register).
