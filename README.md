@@ -11,11 +11,11 @@ This is a tabletop augmented reality iOS demo app, built with the echo3D Swift S
 ## Steps
 * Open ARTownBuilderDemo.xcodeproj using Xcode (Note: If you have Xcode downloaded you simply double click the file to open).
 * Go to the "Signing & Capabilities" tab in Xcode and fill out your signing information. See more details [here](https://docs.echo3d.co/swift/adding-ar-capabilities).
-* Go to the EchoAR.swift file and insert your API key as a string where it says "insert api key here".
-* [Add your models to the echo3D console](https://docs.echo3D.co/quickstart/add-a-3d-model) or choose from our library.
-* Go to the ViewController.swift file, add the entry ID's for 3D content you have added to your echo3D console where it says "insert entry id here". <br>
+* Go to the Echo3D.swift file and insert your API key as a string where it says "insert API key here" on line 22.
+* [Add models to the echo3D console](https://docs.echo3D.co/quickstart/add-a-3d-model) or choose from our library.
+* Go to the ViewController.swift file, add the entry ID's for 3D content you have added to your echo3D console where it says "insert entry ID here" on lines 27 - 34. <br>
 ![APIKeyandEntryId](https://user-images.githubusercontent.com/99516371/195749269-f7a43477-b67a-49e8-a212-6abdb9c948fd.png)<br>
-* [Uncheck](https://docs.echo3d.co/web-console/deliver-pages/security-page) the “Enable Secret Key” box in your echo3D console (Note: For a production build, it’s best to [add the echo3D API key](https://docs.echo3d.co/web-console/deliver-pages/security-page) to the echo3D.cs script so it remains secure).
+* [Uncheck](https://docs.echo3d.co/web-console/deliver-pages/security-page) the “Enable Secret Key” box in your echo3D console (Note: For a production build, it’s best to [add the echo3D security key](https://docs.echo3d.co/web-console/deliver-pages/security-page) to the echo3D.cs script so it remains secure). You can add the security key to the Echo3D.swift file on line 24.
 * Connect your iPhone to your computer.
 * Select your iPhone on the dropdown list of devices to run the demo app on.
 * Press the Play button to build and run (Note: your device must be unlocked and in Developer Mode to run).
@@ -27,7 +27,7 @@ This is a tabletop augmented reality iOS demo app, built with the echo3D Swift S
 * Objects can be scaled at any time by doing the two finger pinch gesture on them.
 
 ## Learn More
-Refer to our [documentation](https://docs.echo3D.co/unity/) to learn more about how to use echo3D and the Swift SDK
+Refer to our [documentation](https://docs.echo3d.com/swift/installation) to learn more about how to use echo3D and the Swift SDK.
 
 ## Troubleshooting
 Visit our troubleshooting guide [here](https://docs.echo3d.co/unity/troubleshooting#im-getting-a-newtonsoft.json.dll-error-in-unity).
