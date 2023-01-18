@@ -1,11 +1,11 @@
 //
-//  echoAR.swift
-//  iOS-echoAR-example
+//  echo3D.swift
+//  iOS-echo3D-example
 //
-//  Copyright © echoAR, Inc. 2018-2023.
+//  Copyright © echo3D, Inc. 2018-2023.
 //
 //  Use subject to the Terms of Service available at https://www.echo3d.com/terms,
-//  or another agreement between echoAR, Inc. and you, your company or other organization.
+//  or another agreement between echo3D, Inc. and you, your company or other organization.
 //
 //  Unless expressly provided otherwise, the software provided under these Terms of Service
 //  is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
@@ -18,14 +18,14 @@ import SceneKit
 import Foundation
 
 
-class EchoAR{
-    let api_key="shrill-bird-7026" //insert your echoAR API key here
-    //echoar endpoint
+class echo3D{
+    let api_key="shrill-bird-7026" //insert your echo3D API key here
+    //echo3D endpoint
     var serverURL="https://api.echo3d.com/query?key="
     //websocket endpoint
     var websockURL="wss://api.echo3d.com/message-endpoint"
     //secure websocket endpoint
-    //var websockURL="wss://console.echoar.xyz/message-endpoint"
+    //var websockURL="wss://api.echo3d.com/message-endpoint"
     //url web sessions
     var urlSession: URLSession!
     //entries as a list
