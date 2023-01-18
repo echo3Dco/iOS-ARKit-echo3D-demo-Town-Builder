@@ -2,7 +2,7 @@
 This is a tabletop augmented reality iOS demo app, built with the echo3D Swift SDK, that allows users to build virtual neighborhoods on horizontal surfaces. This project requires you to enter your echo3D API key or entry IDs.
 
 ## Setup
-* Register for FREE at [echo3D](https://console.echo3D.co/#/auth/register).
+* Register for FREE at [echo3D](https://console.echo3D.co/#/auth/register?utm_term={keyword}&utm_campaign=build_augmented_reality_town_with_swift&utm_source=Github&utm_medium=README).
 * Clone this repository and open in XCode.
 
 ## Video
