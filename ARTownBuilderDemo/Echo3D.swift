@@ -19,9 +19,9 @@ import Foundation
 
 
 class echo3D{
-    let api_key="shrill-bird-7026" //insert your echo3D API key here
+    let api_key="enter-api-key" //insert your echo3D API key here
     //echo3D endpoint
-    var serverURL="https://api.echo3d.com/query?key="
+    var serverURL="https://api.echo3d.com/query?key=<API_KEY>&secKey=<SECRET_KEY>" // Add your secret key here or uncheck the security key box, see README for details
     //websocket endpoint
     var websockURL="wss://api.echo3d.com/message-endpoint"
     //secure websocket endpoint
